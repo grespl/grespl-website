@@ -1,0 +1,68 @@
+#menu-btn ,#close-btn{
+    @apply hidden;
+}
+/* header{
+    @apply relative 2xl:bg-slate-500;
+} */
+ #menuWrapper{
+    @apply  w-[300px] absolute top-0 bottom-0 z-10
+   left-[-300px]  lg:left-0 lg:w-full lg:fixed lg:h-12 ;
+}
+#menu-primary{
+    @apply flex flex-col mt-16 gap-[45px] ml-[30px]
+    lg:mt-0 lg:ml-0 lg:flex-row lg:justify-end lg:gap-0
+     lg:mr-10 2xl:mr-[280px] ;
+} 
+#menu-primary > li{
+    @apply lg:mt-3;
+}
+#menu-primary > li > a{
+    @apply  lg:py-3  lg:px-6 text-[18px] font-normal;
+}
+.menu-btn ,.close-btn{
+    @apply absolute right-3 top-3 lg:hidden;
+}
+ #menu-item-909 > ul{
+    @apply hidden lg:pl-6 lg:pt-6 lg:pb-6 lg:bg-[#ffffff] lg:absolute lg:top-12 lg:right-5 
+    lg:w-[700px] lg:h-[370px] lg:grid lg:grid-cols-3 lg:gap-x-[20px] lg:hidden  2xl:right-52;
+} 
+#menu-item-909 > ul{
+    @apply hidden;
+} 
+
+ #menu-item-937{
+    @apply lg:absolute lg:right-[128px] lg:bottom-[120px];
+}
+ /* #menu-item-917 
+ ,#menu-item-924,#menu-item-929,#menu-item-934,#menu-item-936,
+#menu-item-937{
+    @apply border-2;
+}  */
+
+#menu-item-909 > ul > li > ul > li > a{
+    @apply text-[#959596] font-normal text-[16px] leading-[30px];
+}
+#menu-item-909 > ul > li > a{
+    @apply text-[16px] leading-[30px] font-bold text-[#275784];
+}
+#menu-primary > li:hover ul{
+    @apply lg:block lg:grid lg:transition-all;
+}
+
+
+#menu-btn:checked ~ #menuWrapper{
+    @apply left-0 transition-all ;
+}
+
+
+/* 
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightblue;
+} */
+
+.bgColor{
+    @apply bg-white ;
+    /* background-color: green; */
+    
+}

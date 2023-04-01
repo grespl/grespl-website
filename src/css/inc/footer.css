@@ -96,3 +96,12 @@ footer{
 .row .col-md-7{
     @apply md:mt-[-35px];
 }
+
+
+
+
+
+/* accordion in mobile view */
+#servicesinner, #productsinner, #companyinner{
+    @apply hidden;
+}

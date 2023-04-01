@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -154,7 +154,7 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   /* custom scroll bar */
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     width: 10px;
   }
   ::-webkit-scrollbar-track {
@@ -269,5 +269,5 @@ nav input{
 }
 .body-text div{
   font-size: 45px;
-  font-weight: 600;
-}
+  font-weight: 600; 
+} */
