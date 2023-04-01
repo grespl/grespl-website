@@ -6,7 +6,7 @@
 } */
  #menuWrapper{
     @apply  w-[300px] absolute top-0 bottom-0 z-10
-   left-[-300px] bg-slate-100 lg:left-0 lg:w-full lg:fixed lg:h-12 ;
+   left-[-300px]  lg:left-0 lg:w-full lg:fixed lg:h-12 ;
 }
 #menu-primary{
     @apply flex flex-col mt-16 gap-[45px] ml-[30px]
