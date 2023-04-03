@@ -51,7 +51,7 @@ function copyCSS(cb) {
 
 function copyJS(cb) {
     return src('./src/js/index.js')
-            .pipe(dest('./public/js/index.js'));;
+            .pipe(dest('./public/js/'));;
     cb();
 }
 
