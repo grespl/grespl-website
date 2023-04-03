@@ -1,0 +1,41 @@
+
+.container-box{
+    @apply lg:grid lg:justify-center;
+}
+.feature-content>.digital-ex{
+    @apply text-center font-semibold text-[27px] leading-10 mt-10 lg:text-4xl;
+}
+.feature-content>.digital-para{
+    @apply  text-[15px] text-gray-500 leading-7 text-center;
+}
+div .bold{
+    @apply lg:mt-24 xl:mb-20 md:mt-14 font-semibold md:text-3xl lg:text-4xl;
+}
+.box{
+    @apply md:h-[550px];
+}
+.col-custom{
+     @apply grid justify-center md:grid-cols-3 lg:inline-grid lg:items-center lg:gap-x-2 xl:gap-x-2 xl:gap-y-7 xl:grid-rows-[400px_400px_400px]; 
+}
+ .card-circular{
+    @apply mt-14 w-[350px] leading-6 pt-5 pb-5 shadow-[0px_0px_40px_-30px] rounded md:h-[520px] md:w-56 md:ml-4  text-gray-500 lg:h-[500px] lg:w-[300px] xl:content-center xl:w-[400px] xl:h-[400px]; 
+} 
+.para,svg,h5 {
+    @apply ml-6 xl:ml-10 lg:ml-14;
+}
+h5{
+    @apply font-semibold text-2xl mt-8 text-black;
+}
+.para{
+    @apply md:w-36 lg:w-[200px] m-5 xl:w-60 xl:ml-10 lg:leading-7 lg:ml-14 ;
+}
+.card-circular:hover {
+    @apply  bg-blue-500 text-white ; 
+}
+
+.card-circular:hover .vector{
+@apply fill-white ;
+} 
+.card-circular:hover h5{
+    @apply text-white;
+}
