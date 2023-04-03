@@ -2,7 +2,7 @@
     @apply hidden;
 } 
 header{
-    @apply h-12 z-20 fixed w-full bg-red-400 md:bg-transparent ;
+    @apply h-12 z-20 fixed w-full bg-red-400 lg:bg-transparent ;
 }
  #menuWrapper{
     @apply w-[300px] absolute top-0 bottom-0 z-30
@@ -53,15 +53,7 @@ header{
     @apply left-0 transition-all ;
 }
 
-
-/* 
-body{
-    font-family: 'Nunito Sans', sans-serif;
-    background-color: lightblue;
-} */
-
 .bgColor{
     @apply bg-white ;
     /* background-color: green; */
-    
 }

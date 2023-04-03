@@ -43,11 +43,13 @@ footer{
     @apply font-bold text-[18px] ml-5 relative text-[#ffffff];
 }
 
-
+#location{
+    @apply ml-0;
+}
 
 /* location */
 .accordion-body h5{
-    @apply text-[22px] font-semibold text-[#ffffff] mt-[-70px] ml-5;
+    @apply text-[22px] font-semibold text-[#ffffff]  ml-5;
 }
 .location__info > li{
     @apply text-gray-400 text-[14px];
