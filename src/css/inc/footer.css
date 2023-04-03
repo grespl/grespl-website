@@ -10,14 +10,12 @@ footer{
 .social-media__logo{
     @apply  md:h-[800px] md:grid md:grid-rows-2;
 }
-/* .footer-logoone{
-    @apply md:bg-blue-600;
-} */
+
 .footer-logo .navbar-brand img{
     @apply mt-[60px] ml-[16px] w-[265px] h-[16px];
 }
 .footer-text-color{
-    @apply mt-[31px] text-[16px] ml-5 mr-[5px]
+    @apply text-gray-400 mt-[31px] text-[16px] ml-5 mr-[5px]
     leading-7 text-base mb-[30px] md:w-[80%] lg:w-[60%];
 }
 .socials{
@@ -34,43 +32,29 @@ footer{
 }
 
 #accordiongroup{
-    @apply flex flex-col items-center px-2 md:hidden;
+    @apply flex flex-col items-center px-2 mt-9 md:hidden;
 }
 
-#services{
-    @apply border-[1px] rounded-md py-[20px]
-     w-[350px]  mt-[35px];
+#services, #products, #company{
+    @apply border-[1px]  rounded-md py-[13px]
+     w-[330px] mb-3;
 }
-#services p{
-    @apply font-extrabold text-[18px] ml-5 relative;
+#services p, #products p, #company p{
+    @apply font-bold text-[18px] ml-5 relative text-[#ffffff];
 }
-#products{
-    @apply border-[1px] rounded-md py-[20px]
-     w-[350px]  mt-[35px];
-}
-#products p{
-    @apply font-extrabold text-[18px] ml-5 relative;
-}
-
-#company{
-    @apply border-[1px] rounded-md py-[20px]
-     w-[350px]  mt-[35px];
-}
-#company p{
-    @apply font-extrabold text-[18px] ml-5 relative;
-}
-
 
 
 
 /* location */
 .accordion-body h5{
-    @apply text-lg font-bold ml-5;
+    @apply text-[22px] font-semibold text-[#ffffff] mt-[-70px] ml-5;
 }
-
+.location__info > li{
+    @apply text-gray-400 text-[14px];
+}
 .col-md-8{
     @apply hidden md:block md:grid md:grid-rows-4 md:mt-[55px] 
-    md:h-[750px] md:ml-[-50px];
+    md:h-[750px] md:ml-[-50px] md:text-gray-400;
 }
 .col-md-8 .row{
     @apply md:grid md:grid-cols-3;
@@ -82,26 +66,24 @@ footer{
     @apply md:mt-[170px] md:ml-8 md:text-white;
 }
 .col-md-8 > .location{
-    @apply md:grid md:grid-cols-3 md:gap-4 md:mt-4 md:ml-[30px];
+    @apply md:grid md:grid-cols-3 md:gap-4 md:mt-4 ;
    
 }
 
 
 .md-stamp img{
-    @apply md:mt-16 md:ml-8
+    @apply md:mt-16 ;
 }
-.row{
-    @apply md:flex md:ml-8;
+.privacy-content{
+    @apply flex flex-col gap-5 pl-5 pt-10 pb-10 md:flex-row  ;
 }
-.row .col-md-7{
-    @apply md:mt-[-35px];
+.privacy-content-01 span, .privacy-content-02 a{
+    @apply text-[16px] text-[#a8aab4];
 }
-
-
 
 
 
 /* accordion in mobile view */
-#servicesinner, #productsinner, #companyinner{
-    @apply hidden;
-}
+ #servicesinner, #productsinner, #companyinner{
+    @apply text-[12px] text-gray-400 leading-[30px] pl-5 pt-4 pb-10 hidden;
+} 

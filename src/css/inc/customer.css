@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
+
 .container-box-customers{
     @apply bg-[#ffffff] 2xl:w-[70%] 2xl:mx-auto  ;
 }
@@ -15,7 +17,7 @@
     @apply flex flex-col ;
 }
 .text-clay{
-    @apply ml-7  font-bold mt-9 text-[18px];
+    @apply ml-4 mt-9 text-[21px] leading-10;
 }
 .no-content{
     @apply flex ;
@@ -24,14 +26,22 @@
     @apply md:grid md:grid-cols-2 md:mr-4 pb-[100px] md:pb-[150px];
 }
  .no-content .no-of-customers{
-    @apply text-[50px] font-black text-[#1077da] ml-6;
-} 
+    font-family: 'Nunito Sans', sans-serif;
+    @apply  text-[50px] font-black text-[#1077da] ml-6  2xl:text-[120px];
+    
+ }
+ .text-clay-01{
+    @apply mt-8 text-[18px] ml-6 font-semibold 2xl:mt-[100px];
+ }
 .text-content{
-    @apply w-[100vw] leading-[32px] text-[21px] pl-5 pb-5 pr-5 md:w-[43vw] md:pl-0
-    md:pb-0 md:pr-0 ;
+    @apply w-[100vw] mt-[-20px] leading-[32px] text-[21px] pl-5 pb-5 pr-5 md:w-[43vw] md:pl-0
+    md:pb-0 md:pr-0 2xl:mt-[-50px] ;
 }
 .text-content p{
     @apply 2xl:w-[500px]
+}
+.customer-img{
+    @apply px-10;
 }
 .customer-img img{
     @apply w-[100vw] h-[400px];
