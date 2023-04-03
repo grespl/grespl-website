@@ -3,31 +3,31 @@
     @apply lg:grid lg:justify-center;
 }
 .feature-content>.digital-ex{
-    @apply text-center font-semibold text-[27px] leading-10 mt-10 lg:text-4xl;
+    @apply text-center font-bold text-[27px] leading-10 mt-10 lg:text-4xl;
 }
 .feature-content>.digital-para{
-    @apply  text-[15px] text-gray-500 leading-7 text-center;
+    @apply  text-[18px] text-gray-500 leading-7 text-center lg:h-20;
 }
 div .bold{
-    @apply lg:mt-24 xl:mb-20 md:mt-14 font-semibold md:text-3xl lg:text-4xl;
+    @apply mid:mb-5 small:mb-5 extra-sm:mb-5 lg:mt-28 xl:mb-28 font-bold text-4xl;
 }
 .box{
     @apply md:h-[550px];
 }
 .col-custom{
-     @apply grid justify-center md:grid-cols-3 lg:inline-grid lg:items-center lg:gap-x-2 xl:gap-x-2 xl:gap-y-7 xl:grid-rows-[400px_400px_400px]; 
+     @apply grid justify-center md:grid-cols-3 lg:inline-grid lg:items-center lg:gap-x-2 xl:gap-x-2 xl:gap-y-12 xl:grid-rows-[400px_400px_400px]; 
 }
  .card-circular{
-    @apply mt-14 w-[350px] leading-6 pt-5 pb-5 shadow-[0px_0px_40px_-30px] rounded md:h-[520px] md:w-56 md:ml-4  text-gray-500 lg:h-[500px] lg:w-[300px] xl:content-center xl:w-[400px] xl:h-[400px]; 
+    @apply mid:mt-7 extra-sm:mt-7 extra-sm:w-[260px] extra-sm:h-[470px] small:mt-6 small:w-[340px] small:h-[385px] mid:w-[380px] mid:h-[360px] h-[380px] mt-14 w-[380px] leading-6 pt-5 pb-5 shadow-[0px_0px_40px_-20px] rounded md:h-[520px] md:w-[90%] md:ml-4 text-gray-500 lg:text-lg lg:h-[500px] lg:w-[300px] xl:content-center xl:w-[380px] xl:h-[420px]; 
 } 
 .para,svg,h5 {
-    @apply ml-6 xl:ml-10 lg:ml-14;
+    @apply ml-6 xl:ml-10 lg:ml-12;
 }
 h5{
-    @apply font-semibold text-2xl mt-8 text-black;
+    @apply font-semibold xl:text-[30px] text-2xl mt-8 text-black lg:w-56;
 }
 .para{
-    @apply md:w-36 lg:w-[200px] m-5 xl:w-60 xl:ml-10 lg:leading-7 lg:ml-14 ;
+    @apply text-lg md:w-40 md:text-lg lg:w-[200px] m-5 xl:w-64 xl:ml-10 lg:leading-7 lg:ml-12 ;
 }
 .card-circular:hover {
     @apply  bg-blue-500 text-white ; 
@@ -38,4 +38,7 @@ h5{
 } 
 .card-circular:hover h5{
     @apply text-white;
+}
+.card1, .card2, .card3{
+@apply mid:mt-7;
 }
