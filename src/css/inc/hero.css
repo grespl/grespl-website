@@ -5,7 +5,7 @@
     @apply   flex justify-items-center ;
 }
 .container-box .text{
-    @apply text-white font-extrabold uppercase absolute font-['Nunito_sans']  p-2 text-ellipsis top-[43%] left-[20%] text-3xl md:text-4xl md:top-[45%] md:left-[10%] lg:text-5xl lg:top-[45%] lg:left-[25%];
+    @apply text-white font-extrabold uppercase absolute  text-ellipsis top-[43%] left-[20%] text-3xl md:text-4xl md:top-[45%] md:left-[10%] lg:text-5xl lg:top-[45%] lg:left-[25%];
 }
 
 
