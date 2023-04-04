@@ -1,20 +1,11 @@
-/* .talk-to-us-content{
-    @apply bg-slate-600;
-}
-.row{
-    @apply grid grid-cols-[400px,400px]    ;
-}
-.row .challenge{
-    @apply bg-cyan-600;
-} */
 #talk-to-us .row{
-        @apply bg-slate-600 grid mx-auto lg:grid-cols-2 lg:grid-rows-1 lg:border-2 border-dotted md:grid-cols-2 md:grid-rows-1 md:border-2 border-dotted;
+        @apply bg-slate-600 grid lg:grid-cols-2 lg:grid-rows-1 md:grid-cols-2 md:grid-rows-1;
     }
     .challenge{
-        @apply   text-3xl font-extrabold leading-10 mx-6 mt-14 md:mx-[50px] lg:mx-[50px] not-italic bg-green-700;
+        @apply   text-3xl font-extrabold leading-10 mx-6 mt-14 md:mx-[50px] lg:mx-[50px] not-italic ;
     }
-    .para{
-        @apply   text-lg font-normal leading-7 mx-6 mt-4  not-italic md:mt-14 lg:mx-[50px] lg:mt-[63px] bg-cyan-400;
+    .paragraph p{
+        @apply   text-lg font-normal leading-7 mx-6 mt-4  not-italic md:mt-14 lg:mx-[50px] lg:mt-[63px] ;
     }
     .talk-to-us-btn{
         @apply text-[20px] font-semibold leading-[32px] bg-blue-600 w-[194px] h-[64px] text-white cursor-pointer ml-[24px] my-[60px] text-center md:mx-[27px] lg:mx-[40px] ;
@@ -24,9 +15,6 @@
     }
     .mb-30{
         @apply  font-extrabold text-5xl;
-    }
-    .live-shortcode{
-        @apply   w-[500px] h-[350px] ;
     }
     .wpcf7-form-control, input{
         @apply ml-0 mt-5 w-[500px] ;
