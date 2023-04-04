@@ -9,10 +9,10 @@ header{
    left-[-300px]  lg:left-0 lg:w-full lg:fixed lg:h-12 ;
 } */
 #menuWrapper{
-    @apply w-full h-12  z-40;
+    @apply w-full h-12 z-40;
 }
 .wrappernav{
-    @apply bg-[#ffffff] w-[300px] absolute  pb-[1000px]  z-30
+    @apply bg-[#ffffff] w-[300px] absolute h-[100vh] z-30
     left-[-300px] lg:left-0 lg:w-full lg:bg-transparent  lg:h-12;
 }
 #menu-primary{
