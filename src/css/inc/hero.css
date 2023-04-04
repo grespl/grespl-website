@@ -2,5 +2,9 @@
     @apply  h-[80vh] bg-cover bg-no-repeat bg-center  ;
 }
 .hero-section .container-box{
-    @apply text-white font-extrabold uppercase absolute  text-ellipsis top-[43%] left-[20%] text-3xl md:text-4xl md:top-[45%] md:left-[10%] lg:text-5xl lg:top-[45%] lg:left-[25%];
+    @apply text-white font-extrabold uppercase absolute justify-center text-3xl top-[32%] left-[20%] md:text-2xl lg:top-[36%] lg:left-[35%] lg:text-4xl;
 }
+
+
+
+
