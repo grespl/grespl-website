@@ -4,11 +4,6 @@ module.exports = {
   // darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      screens:{
-    'extra-sm':'320px',
-    'small':'375px',
-    'mid':'425px',
-      },
       colors: {
         'primary': {
           DEFAULT: '#F4856D',
@@ -25,7 +20,7 @@ module.exports = {
         },
         'secondary': {
           DEFAULT: '#094E5D',
-          '50': '#dae4e7',
+          '50':  '#dae4e7',
           '100': '#b2c4ca',
           '200': '#8ba5ad',
           '300': '#648791',
