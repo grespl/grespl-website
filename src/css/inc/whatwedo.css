@@ -12,42 +12,41 @@
 .container-box .bold {
     @apply  mb-14;
 }
-
 .container-box div .bold {
     @apply text-3xl font-bold lg:text-4xl;
 }
 
 .container-box .col-custom {
-    @apply md:grid justify-center md:grid-cols-3 text-gray-600 lg:p-5 xl:grid-cols-[420px_420px_420px];
+    @apply md:grid justify-center md:grid-cols-3 text-gray-600 lg:p-5 lg:grid-cols-[350px_350px_350px] xl:grid-cols-[420px_420px_420px];
 }
 
 .container-box .card-circular {
-    @apply m-5 md:mb-2 pt-2 pb-2 rounded shadow-[0px_0px_40px_-25px];
+    @apply m-5 md:mb-2 pt-2 pb-2 rounded shadow-[0px_0px_40px_-25px] lg:pt-5 lg:pb-5;
 }
 .container-box h5{
-    @apply text-black;
+    @apply text-black lg:w-[200px] xl:w-[300px];
 }
 .container-box .para,svg,h5 {
     @apply m-5 lg:ml-10 lg:mr-10;
 }
-.container-box .para1{
-    @apply xl:pb-7;
+.container-box .para{
+    @apply font-sans;
 }
 .container-box .para2{
     @apply md:pb-7;
 }
-.container-box .para3{
-    @apply md:pb-14;
+ .container-box .para3{
+    @apply md:mb-12;
 }
 .container-box .para4{
-    @apply md:pb-16;
-}
+    @apply md:mb-20 xl:mb-12;
+} 
 .container-box .para5{
-    @apply lg:pb-16 xl:pb-16;
+    @apply lg:pb-16 xl:pb-7;
 }
-.container-box .para6{
-    @apply xl:pb-9;
-}
+ .container-box .para6{
+    @apply xl:pb-7;
+} 
 .container-box h5 {
     @apply font-semibold text-[23px];
 }
