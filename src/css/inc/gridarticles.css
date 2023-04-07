@@ -1,5 +1,13 @@
 
+<<<<<<< Updated upstream
 .bg-gray-100{
+=======
+*{
+@apply p-0 m-0;
+}
+
+section{
+>>>>>>> Stashed changes
 @apply bg-gray-100;
 }
 
@@ -7,7 +15,10 @@
 @apply py-[160px]  md:mx-[180px]; 
 } 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .home-grid{
 @apply grid lg:grid-cols-3;
 } 
@@ -15,7 +26,11 @@
 
 /* box1 */ 
 .box1{
+<<<<<<< Updated upstream
 @apply grid;
+=======
+@apply grid ;
+>>>>>>> Stashed changes
 }  
 
 .box1 a.min-h-540{
@@ -100,12 +115,17 @@
 
 
 
+<<<<<<< Updated upstream
 .box2 a.white-bg{
+=======
+.box2 a .white-bg{
+>>>>>>> Stashed changes
 @apply bg-white p-10 lg:min-h-[540px];
 }  
 .box2 .pre6 {
 @apply text-blue-500 block uppercase font-bold mb-[12px] tracking-[0.7px] leading-[20px] text-[14px];
 }  
+<<<<<<< Updated upstream
 .box2 a.white-bg h4{
 @apply block text-[25px]  font-[600] mb-5 md:text-[18px] lg:text-[32px];
 } 
@@ -113,6 +133,15 @@
 @apply mt-5 text-[17px] md:text-[18px] lg:text-[18px] text-gray-500 ;
 }   
         
+=======
+.box2 a .white-bg h4{
+@apply block text-[25px]  font-[600] mb-5 md:text-[18px] lg:text-[32px];
+} 
+.box2 a .white-bg p{
+@apply mt-5 text-[17px] md:text-[18px] lg:text-[18px] text-gray-500 ;
+}  
+    
+>>>>>>> Stashed changes
 
 /* box3 */
 
@@ -120,7 +149,11 @@
 @apply grid  
 }
         
+<<<<<<< Updated upstream
 .box3 a.white-bg {
+=======
+.box3 a .white-bg {
+>>>>>>> Stashed changes
 @apply bg-white p-10 lg:min-h-[360px];
 } 
 .box3 .pre7 {
@@ -163,6 +196,7 @@
 }
 
 
+<<<<<<< Updated upstream
 .box3 a.post-image-3 h4{
 @apply block text-[25px] font-[600] mb-5 md:text-[18px] lg:text-[32px] ;
 }
@@ -170,3 +204,12 @@
 .box3 a.post-image-3 p{
 @apply mt-5 text-[17px] md:text-[18px]  lg:text-[18px];
 }   
+=======
+.box3 a .post-image-3 h4{
+@apply block text-[25px] font-[600] mb-5 md:text-[18px] lg:text-[32px] ;
+}
+
+.box3 a .post-image-3 p{
+@apply mt-5 text-[17px] md:text-[18px]  lg:text-[18px];
+}  
+>>>>>>> Stashed changes
