@@ -11,12 +11,12 @@
         @apply text-[20px] font-semibold leading-[32px] bg-blue-600 p-[10px] text-white cursor-pointer ml-[24px] my-[60px] text-center md:mx-[27px] lg:mx-12 ;
     }
     .modal-body{
-        @apply bg-white rounded absolute top-0 left-[50%] transition-all shadow scale-[0.1] hidden;
+        @apply bg-white rounded absolute top-[0%] left-[50%] transition-all shadow scale-[0.1] hidden;
     }
     .modal-body > .mb-30{
         @apply  font-extrabold text-5xl;
     }
-    .modal-body .wpcf7-text {
+    .modal-body .wpcf7-text{
         @apply mt-5 w-[500px];
     }
     .modal-body .wpcf7-textarea{
