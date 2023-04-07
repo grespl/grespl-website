@@ -1,15 +1,10 @@
 .hero-section{
     @apply  h-[80vh] bg-cover bg-no-repeat bg-center  ;
 }
-.container-box {
-    @apply   flex justify-items-center ;
-}
-.container-box .text{
-    @apply text-white font-extrabold uppercase absolute  text-ellipsis top-[43%] left-[20%] text-3xl md:text-4xl md:top-[45%] md:left-[10%] lg:text-5xl lg:top-[45%] lg:left-[25%];
+.hero-section .container-box{
+    @apply text-white font-extrabold uppercase absolute justify-center text-3xl top-[32%] left-[20%] md:text-2xl lg:top-[36%] lg:left-[35%] lg:text-4xl;
 }
 
 
-/*top-[47%] left-[10%] text-3xl md:text-4xl md:top-[47%] md:left-[25%] lg:text-5xl lg:top-[47%] lg:left-[25%]*/
-/* .container-box .text{
-    @apply   bg-slate-600 text-white font-extrabold uppercase font-['Nunito_sans'];
-} */
+
+
