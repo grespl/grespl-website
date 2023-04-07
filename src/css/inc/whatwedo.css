@@ -1,44 +1,73 @@
-
-.container-box{
-    @apply lg:grid lg:justify-center;
+.container-box {
+    @apply flex flex-col;
 }
-.feature-content>.digital-ex{
-    @apply text-center font-bold text-[27px] leading-10 mt-10 lg:text-4xl;
-}
-.feature-content>.digital-para{
-    @apply  text-[18px] text-gray-500 leading-7 text-center lg:h-20;
-}
-div .bold{
-    @apply mid:mb-5 small:mb-5 extra-sm:mb-5 lg:mt-28 xl:mb-28 font-bold text-4xl;
-}
-.box{
-    @apply md:h-[550px];
-}
-.col-custom{
-     @apply grid justify-center md:grid-cols-3 lg:inline-grid lg:items-center lg:gap-x-2 xl:gap-x-2 xl:gap-y-12 xl:grid-rows-[400px_400px_400px]; 
-}
- .card-circular{
-    @apply mid:mt-7 extra-sm:mt-7 extra-sm:w-[260px] extra-sm:h-[470px] small:mt-6 small:w-[340px] small:h-[385px] mid:w-[380px] mid:h-[360px] h-[380px] mt-14 w-[380px] leading-6 pt-5 pb-5 shadow-[0px_0px_40px_-20px] rounded md:h-[520px] md:w-[90%] md:ml-4 text-gray-500 lg:text-lg lg:h-[500px] lg:w-[300px] xl:content-center xl:w-[380px] xl:h-[420px]; 
-} 
-.para,svg,h5 {
-    @apply ml-6 xl:ml-10 lg:ml-12;
-}
-h5{
-    @apply font-semibold xl:text-[30px] text-2xl mt-8 text-black lg:w-56;
-}
-.para{
-    @apply text-lg md:w-40 md:text-lg lg:w-[200px] m-5 xl:w-64 xl:ml-10 lg:leading-7 lg:ml-12 ;
-}
-.card-circular:hover {
-    @apply  bg-blue-500 text-white ; 
+.container-box .digital-ex {
+    @apply text-center lg:text-4xl lg:leading-[50px];
 }
 
-.card-circular:hover .vector{
-@apply fill-white ;
+.container-box .digital-para {
+    @apply text-center text-lg text-gray-600 m-5;
+}
+
+.container-box .bold {
+    @apply  mb-14;
+}
+.container-box div .bold {
+    @apply text-3xl font-bold lg:text-4xl;
+}
+
+.container-box .col-custom {
+    @apply md:grid justify-center md:grid-cols-3 text-gray-600 lg:p-5 lg:grid-cols-[350px_350px_350px] xl:grid-cols-[420px_420px_420px];
+}
+
+.container-box .card-circular {
+    @apply m-5 md:mb-2 pt-2 pb-2 rounded shadow-[0px_0px_40px_-25px] lg:pt-5 lg:pb-5;
+}
+.container-box h5{
+    @apply text-black lg:w-[200px] xl:w-[300px];
+}
+.container-box .para,svg,h5 {
+    @apply m-5 lg:ml-10 lg:mr-10;
+}
+.container-box .para{
+    @apply font-sans;
+}
+.container-box .para2{
+    @apply md:pb-7;
+}
+ .container-box .para3{
+    @apply md:mb-12;
+}
+.container-box .para4{
+    @apply md:mb-20 xl:mb-12;
 } 
-.card-circular:hover h5{
+.container-box .para5{
+    @apply lg:pb-16 xl:pb-7;
+}
+ .container-box .para6{
+    @apply xl:pb-7;
+} 
+.container-box h5 {
+    @apply font-semibold text-[23px];
+}
+ .container-box .card1{
+    @apply md:ml-9 md:mr-1;
+} 
+.container-box .card3{
+    @apply md:mr-9 md:ml-1;
+}
+.container-box .card-circular:hover {
+    @apply bg-blue-500 text-white;
+}
+
+.container-box .card-circular:hover .vector {
+    @apply fill-white;
+}
+
+.container-box .card-circular:hover h5 {
     @apply text-white;
 }
-.card1, .card2, .card3{
-@apply mid:mt-7;
-}
+
+
+
+
