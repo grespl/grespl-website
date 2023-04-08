@@ -17,7 +17,7 @@
 }
 
 .container-box .col-custom {
-    @apply md:grid justify-center md:grid-cols-3 text-gray-600 lg:p-5 lg:grid-cols-[350px_350px_350px] xl:grid-cols-[420px_420px_420px];
+    @apply md:grid justify-center md:grid-cols-3  text-gray-600 lg:p-5 lg:grid-cols-[350px_350px_350px] xl:grid-cols-[420px_420px_420px];
 }
 
 .container-box .card-circular {
@@ -30,23 +30,23 @@
     @apply m-5 lg:ml-10 lg:mr-10;
 }
 .container-box .para{
-    @apply font-sans;
+    @apply font-sans text-lg;
 }
 .container-box .para2{
     @apply md:pb-7;
-}
+} 
  .container-box .para3{
     @apply md:mb-12;
-}
+} 
 .container-box .para4{
-    @apply md:mb-20 xl:mb-12;
+     @apply md:mb-20 xl:mb-12; 
 } 
 .container-box .para5{
     @apply lg:pb-16 xl:pb-7;
 }
- .container-box .para6{
+  .container-box .para6{
     @apply xl:pb-7;
-} 
+}  
 .container-box h5 {
     @apply font-semibold text-[23px];
 }
