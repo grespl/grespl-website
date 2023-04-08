@@ -3,11 +3,11 @@
 }
 
 .container-box{
-  @apply py-[160px]  md:mx-[190px]; 
+  @apply py-[160px]  lg:px-[20px] xl:px-[140px]; 
 } 
 
 .home-grid{
-@apply grid lg:grid-cols-3;
+@apply grid  md:grid-cols-3 lg:grid-cols-3;
 } 
 
 
@@ -17,7 +17,7 @@
 }  
 
 .box1 a.min-h-540{
-@apply bg-white  p-10  lg:min-h-[540px];
+@apply bg-white p-10 lg:min-h-[540px];
 } 
 .box1 .pre1{
 @apply text-blue-600 block uppercase font-bold mb-[12px] tracking-[0.7px] leading-[20px] text-[14px];
@@ -33,17 +33,17 @@
 
 
 .box1 a.post-image-1{
-@apply bg-black  text-white  p-10 lg:min-h-[360px];
+@apply   text-white  p-10 lg:min-h-[360px];
 } 
 .box1 .pre2 {
-@apply block uppercase font-semibold  mb-[12px] tracking-[0.7px] leading-[20px] text-[14px];
+@apply block uppercase font-bold  mb-[12px] tracking-[0.7px] leading-[20px] text-[14px];
 } 
 .box1 a.post-image-1 h4{
 @apply block text-[25px]  font-[600] mb-5 md:text-[28px] lg:text-[32px];
 }
 .box1 a.post-image-1 p{
 @apply block text-[17px] md:text-[18px] lg:text-[18px];
-}  
+}   
 
 
 
@@ -54,10 +54,10 @@
 .box1 .pre3 {
 @apply block uppercase font-bold mb-[12px] tracking-[0.7px] leading-[20px] text-[14px];
 }   
-.box1 a.bg-mandy-pink  h4{
+.box1 a.bg-mandy-pink h4{
 @apply block text-[25px]  font-[600] mb-5 md:text-[28px] lg:text-[32px];
 }
-.box1 a.bg-mandy-pink  p{
+.box1 a.bg-mandy-pink p{
 @apply  block text-[17px] md:text-[18px] lg:text-[18px];
 }  
 
@@ -74,7 +74,7 @@
 @apply block uppercase font-bold mb-[12px] tracking-[0.7px] leading-[20px] text-[14px];
 }
 .box2 a.post-image-2 h4{
-@apply  block text-[25px]  font-[600] mb-5 md:text-[28px] lg:text-[32px] ;
+@apply  block text-[25px]  font-[600] mb-5 md:text-[28px] lg:text-[32px];
 }
 .box2 a.post-image-2 p{
 @apply  mt-5 text-[17px] md:text-[18px] lg:text-[18px];
@@ -83,7 +83,7 @@
 
 
 .box2 a.bg-aqua{
-@apply bg-[rgb(91,186,214)] p-10 text-white lg:min-h-[360px] ;
+@apply bg-[rgb(91,186,214)] p-10 text-white lg:min-h-[360px];
 }
 .box2 .pre5{
 @apply block uppercase font-bold mb-[12px] tracking-[0.7px] leading-[20px] text-[14px];
@@ -120,7 +120,7 @@
 /* box3 */
 
 .box3{
-@apply grid  
+@apply grid; 
 }
         
 .box3 a.white-bg {
@@ -162,7 +162,7 @@
 }
 
 .box3 a.post-image-3 h4{
-@apply block text-[25px] font-[600] mb-5 md:text-[18px] lg:text-[32px] ;
+@apply block text-[25px] font-[600] mb-5 md:text-[18px] lg:text-[32px];
 }
 
 .box3 a.post-image-3 p{
