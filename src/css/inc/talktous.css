@@ -5,10 +5,10 @@
         @apply   text-3xl font-extrabold leading-10 mx-6 mt-8 md:mx-[40px] not-italic lg:mx-[90px] lg:my-20;
     }
     #talk-to-us .paragraph{
-        @apply   text-lg font-normal leading-7 mx-6 mt-4 not-italic md:mt-8  lg:mx-[40px] lg:mt-[90px];
+        @apply   text-lg font-normal leading-7 mx-6 mt-4 not-italic md:mt-8  lg:mx-[50px] lg:mt-[80px];
     }
     .talk-to-us-btn{
-        @apply text-[20px] font-semibold leading-[32px]  bg-blue-600 p-[10px] text-white cursor-pointer ml-[24px]  text-center md:mx-[27px] lg:mx-10  ;
+        @apply text-[20px] font-semibold leading-[32px]  bg-blue-600 p-[10px] text-white cursor-pointer ml-[24px]  text-center md:mx-[27px] lg:mx-12  ;
     }
     input[type=checkbox]{
       @apply hidden;
