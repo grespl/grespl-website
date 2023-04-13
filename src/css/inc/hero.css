@@ -1,8 +1,8 @@
 .hero-section{
-    @apply h-[80vh] bg-cover bg-no-repeat bg-center;
+    @apply h-screen bg-cover bg-no-repeat bg-center;
 }
 .hero-section > .hero_contant{
-    @apply text-white font-extrabold uppercase absolute justify-center text-4xl top-[35%] left-[15%] md:text-4xl md:top-[37%] md:left-[20%] lg:text-6xl lg:top-[37%] lg:left-[20%];
+    @apply text-white font-extrabold uppercase absolute justify-center text-4xl top-[45%] left-[15%] md:text-4xl md:top-[45%] md:left-[20%] lg:text-6xl lg:top-[45%] lg:left-[20%];
 }
 
 

@@ -11,29 +11,25 @@
 						We love what we do so much and we’re always looking for the next big challenge, the next problem to be solved, the next
 						idea that simply needs the breath of life to become a reality. What’s your challenge?
 					</p>
-					<br>
-					<label for="talk-to-us-btn" class="talk-to-us-btn">Talk to us <i class="fa fa-arrow-right text-white mx-3"></i> </label>
-					<input type="checkbox" id="talk-to-us-btn">
-					
-				
-					<div id="talk-to-us-form" >
-						<h2 class="modal-body">Talk To Us</h2>
-							<form class="model-form mt-6">
-								<div>
-									<input class="model-info ml-12" type="text" name="name" placeholder="Enter name" size="50" required>
-								</div>
-								<div>
-									<input class="model-info ml-12" type="email" name="email" placeholder="Enter email" size="50" required>
-								</div>
-									<textarea class="model-info ml-12" name="message" cols="50" rows="3"  placeholder="Enter massage"></textarea>
-								<div class="mt-5">
-									<label for="submit-btn" class="talk-to-us-button ml-12">submit</label>
-									<input type="checkbox" name="submit" id="submit-btn">
-								</div>
-							</form>
-					</div>
+					<label for="toggle-modal" class="btn-modal_open">
+						 Talk to us <i class="fa fa-arrow-right text-white mx-3 mb-6 mt-6"></i>
+					  </label>
+					  
+						<div id="myModal" class="modalCheckbox">
+							<input type="checkbox" id="toggle-modal">
+							<label for="toggle-modal" class="modal-overlay"></label>
+							<div class="modal-dialog">
+								<h2 class="modal-body ">Talk To Us</h2>
+								<form class="modal-header">
+									<input class="model-info" type="text" name="name" placeholder="Enter name" size="50" required>
+									<input class="model-info" type="email" name="email" placeholder="Enter email" size="50" required>
+									<textarea class="model-info" name="message" cols="50" rows="3"  placeholder="Enter massage"></textarea>
+									<label for="toggle-modal" class="btn-close">submit</label>
+								</form>		
+							</div>
+						</div>
 				</div>
 			</div>
-		</div>
-	</div> 				
+		</div> 
+	</div>				
 </section>
