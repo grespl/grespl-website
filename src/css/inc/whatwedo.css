@@ -21,7 +21,7 @@
 }
 
 .what-we-do .card-circular {
-    @apply m-5 md:mb-2 pt-2 pb-2 rounded shadow-[0px_0px_40px_-25px] lg:pt-5 lg:pb-5;
+    @apply m-5 md:mb-2 pt-2 pb-2 rounded shadow-[0px_0px_15px_-10px] lg:pt-5 lg:pb-5;
 }
 .what-we-do h5{
     @apply text-black lg:w-[200px] xl:w-[300px];
