@@ -20,7 +20,7 @@
 @apply bg-white p-10 lg:min-h-[540px];
 } 
 .box1 .pre1{
-@apply text-blue-600 block uppercase font-bold mb-[12px] tracking-[0.7px] leading-[20px] text-[14px];
+@apply text-blue-600 block uppercase font-bold mb-[12px] tracking-[0.7px]  leading-[20px] text-[14px];
 } 
 .box1 a.min-h-540 h4{
 @apply block text-[25px]  font-semibold mb-5 md:text-[28px] lg:text-[32px];
