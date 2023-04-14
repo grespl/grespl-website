@@ -23,10 +23,10 @@
 .what-we-do h5{
     @apply text-black font-semibold text-2xl lg:w-[200px] xl:w-[300px];
 }
-.what-we-do .para,svg,h5 {
+.what-we-do .paragraph,svg,h5 {
     @apply m-5 lg:ml-10 lg:mr-10;
 }
-.what-we-do .para{
+.what-we-do .paragraph{
     @apply font-sans text-lg;
 }
  .what-we-do .para2{
