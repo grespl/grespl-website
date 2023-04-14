@@ -2,7 +2,7 @@
     @apply bg-white flex flex-col;
 }
 .what-we-do .digital-ex {
-    @apply text-center lg:text-4xl lg:leading-[50px];
+    @apply text-center lg:text-4xl lg:leading-normal;
 }
 
 .what-we-do .digital-para {
