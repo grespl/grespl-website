@@ -1,5 +1,5 @@
 .what-we-do {
-    @apply flex flex-col;
+    @apply bg-white flex flex-col;
 }
 .what-we-do .digital-ex {
     @apply text-center lg:text-4xl lg:leading-[50px];
