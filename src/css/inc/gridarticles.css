@@ -1,13 +1,9 @@
-*{
-  font-family:;
-}
-
 #article{
   @apply bg-gray-100;
 }
 
 .container-box{
-  @apply py-[160px] px-[10px] lg:px-[20px] xl:px-[40px] 2xl:px-[180px]; 
+  @apply py-[160px] px-[10px] lg:px-[20px] xl:px-[40px] 2xl:px-[190px]; 
 } 
 
 .home-grid{
