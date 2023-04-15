@@ -1,156 +1,99 @@
-footer {
-    @apply bg-[#303642];
+footer{
+    @apply  bg-[#303642];
+}
+.footer__SectionArea {
+    @apply grid grid-cols-1  md:grid-cols-[250px_1fr] md:gap-x-4
+    xl:w-[90%] xl:mx-auto  2xl:w-[70%] 2xl:mx-auto;
+}
+/* ==================================================== */
+.footer__section1{
+    @apply grid grid-cols-1 grid-flow-row  gap-y-5 text-white;
 }
 
-.footerinfo_section,
-.container-box-footer {
-    @apply xl:w-[90%]  xl:mx-auto 2xl:w-[70%];
-}   
-
-#footerSection{
-    @apply md:grid md:grid-cols-2;
+.footer__section1 .infomation{
+    @apply ml-6 mt-6;
 }
-
-.footer-logoone .footer-logo img{
- @apply mt-8 pl-8;
+ .footer__section1 .infomation p{
+    @apply text-base text-[#a8aab4];
+}  
+.footer__section1 .infomation .GR-logo{
+    @apply mb-6;
 }
-
-
-.social-media__logo{
-    @apply md:h-[520px] md:w-[280px] md:grid md:grid-rows-2;
+.footer__section1 .socials{
+    @apply ml-6 mb-6 md:mb-4 md:flex md:items-end;
 }
-
-
- .footer-logoone{
-    @apply pb-6;
- } 
-
-.footer-text-color{
-    @apply text-[#a8aab4] text-[16px] leading-[24px] pl-7 pt-4;
+.socials span{
+    @apply text-lg;
 }
-
-.socials{
-    @apply ml-2 md:flex md:flex-col md:justify-end;
+.footer__section1 .socials .social__logo{
+    @apply flex gap-4;
 }
-
-/* logo section desktop */
-.social__logo > a{
-    @apply text-black bg-white w-[30px] flex justify-center items-center
+.footer__section1 .socials .social__logo > a{
+    @apply text-black bg-white w-[30px] h-[30px] flex justify-center items-center
     rounded-sm;
 }
-/* logo section desktop */
 
-.socials span{
-    @apply ml-5 text-lg;
+/* ===================================================== */
+
+.footer__section2{
+    @apply grid grid-cols-1;
 }
-
-.socials div{
-    @apply flex gap-3 ml-5 mt-2;
+.accordion__Group{
+    @apply mx-auto md:mx-0 md:grid md:grid-cols-3;
 }
- 
-.social__logo > a{
-    @apply border-[1px];
+.angle__Icon{
+    @apply text-white;
 }
-
-
-.stamp img{
-    @apply mx-auto mt-[45px] md:hidden;
+#services,#products,#company,#product{
+    @apply text-lg  border-[1px] rounded-md py-5 pl-4 mb-4 w-[88vw] md:w-0 md:pl-0 md:py-0 md:border-none
+    md:mt-4;
 }
-
-#accordiongroup{
-    @apply flex flex-col items-center px-2 mt-9 md:hidden;
+.accodion__icon{
+    @apply flex justify-between;
 }
-
-/* mobile view */
-#services,
-#products,
-#company {
-    @apply border-[1px] rounded-md py-[13px] w-[330px] mb-3;
+.angle__Icon{
+    @apply mr-6  md:hidden;
 }
-
-#services p,
-#products p,
-#company p{
-    @apply font-bold text-[18px] ml-5 relative text-[#ffffff];
+#servicesinner ,#productsinner ,#companyinner{
+    @apply hidden text-[#a8aab4] text-sm md:block md:mt-[-15px];
 }
-/* mobile view */
-
-
- #location{
-    @apply mt-[120px] ml-[-1px] text-[18px];
+.location__info{
+    @apply ml-6 mb-6 md:ml-0 md:mt-6;
 } 
-.location__address{
-    @apply grid grid-cols-3 md:mt-4 ;
+.location__info h2{
+    @apply text-white text-lg;
 }
-
-.locationAddressinfo > p{
-    @apply text-[14px] leading-[24px] md:w-[150px] lg:w-[200px] text-[#a8aab4];
+ .location__info .locationInfo__Section{
+    @apply grid grid-cols-1 grid-flow-row gap-4 text-white md:grid-cols-3 md:gap-0;
 } 
-
-/* location */
-.accordion-body h5{
-    @apply text-[18px] font-semibold text-[#ffffff] ml-5;
-}
-
-.location__info > li{
-    @apply text-[#a8aab4] text-[14px] leading-[24px] ml-[-5px] w-[370px];
-}
-
-.col-md-8{
-    @apply hidden md:ml-[-100px] lg:ml-[-220px] xl:ml-[-150px] md:grid md:grid-rows-4 md:h-[550px];
-}
-
-.col-md-8 .row{
-    @apply md:grid md:grid-cols-3 ;
-}
-
-.Headline{
-    @apply md:mt-7;
-}
-.Headline > p{
-    @apply text-[18px] leading-[28px] ;
-}
-.Headline > ul{
-    @apply md:mt-[-40px];
-}
-.Headline > ul > li{
-    @apply md:text-[14px] md:leading-[24px] md:text-[#a8aab4];
-}
-
-
-.col-md-8 > .location{
-    @apply md:grid md:grid-cols-3 md:gap-4 md:mt-4;
-
+.locationInfo__Section .locationAddressinfo{
+    @apply  w-[70%] md:w-[90%];
+} .locationAddressinfo > p{
+    @apply text-sm  text-[#a8aab4];
 }
 .md-stamp{
-    @apply mt-2 md:mt-12;
+    @apply mb-4;
 }
 .md-stamp > h2{
-    @apply text-[18px] leading-[28px] text-[#ffffff];
+    @apply text-white text-lg md:mb-2;
 }
 .md-stamp__imgSection{
-    @apply flex gap-6 mt-2;
+    @apply flex gap-1 md:gap-4;
 }
 
+
+
 hr{
-    @apply w-[98%] mx-auto mt-[-20px] mb-8 md:mb-0 ;
+    @apply w-[98%] mx-auto ;
 }
+
+
 .privacy-content{
-    @apply flex flex-col gap-5 mx-8  pb-10 md:w-[95%] xl:w-[1100px] 2xl:w-[1300px] md:pt-6 md:flex-row md:justify-between md:mx-auto ;
-} 
+    @apply my-6 ml-3 ;
+}  
 
 .privacy-content-01 span,
 .privacy-content-02 a{
-    @apply text-[14px] text-[#a8aab4];
-}
-.privacy-content-02 a{
-    @apply ml-[-15px] md:ml-0;
+    @apply text-[#a8aab4];
 }
 
-
-/* accordion in mobile view */
-#servicesinner,
-#productsinner,
-#companyinner{
-    @apply text-[14px] text-[#a8aab4] leading-[24px] pl-5 pt-3 pb-5 hidden ;
-}
