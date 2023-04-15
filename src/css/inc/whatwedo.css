@@ -1,70 +1,82 @@
 .what-we-do {
-    @apply bg-white flex flex-col;
-}
-.what-we-do .digital-ex {
+    @apply bg-white;
+
+.digital-ex {
     @apply text-center lg:text-4xl lg:leading-normal;
 }
 
-.what-we-do .digital-para {
-    @apply text-center text-lg text-gray-600 m-5;
+.digital-para {
+    @apply text-center text-xl text-gray-600 m-5;
 }
 
- .what-we-do div .bold {
-    @apply text-3xl font-bold lg:text-4xl mb-14 text-center;
-} 
-
-.what-we-do .col-custom {
-    @apply md:grid justify-center md:grid-cols-3 text-gray-600 lg:p-5 lg:grid-cols-[350px_350px_350px] xl:grid-cols-[420px_420px_420px] ;
+div .bold {
+    @apply mb-14 font-bold text-center text-3xl lg:text-4xl;
 }
 
-.what-we-do .card-circular {
-    @apply m-5 md:mb-2 pt-2 pb-2 rounded shadow-[0px_0px_15px_-10px] lg:pt-5 lg:pb-5;
+.col-custom {
+    @apply text-gray-600 md:grid justify-center md:grid-cols-3 lg:p-5 lg:grid-cols-[350px_350px_350px] xl:grid-cols-[420px_420px_420px];
 }
-.what-we-do h5{
-    @apply text-black font-semibold text-2xl lg:w-[200px] xl:w-[300px];
+
+.card-circular {
+    @apply m-5 pt-2 pb-2 rounded shadow-[0px_0px_15px_-10px] md:mb-2 lg:pt-5 lg:pb-5;
 }
-.what-we-do .paragraph,svg,h5 {
+
+h5 {
+    @apply text-black font-semibold text-2xl lg:w-52 xl:w-72;
+}
+
+.paragraph,
+svg,
+h5 {
     @apply m-5 lg:ml-10 lg:mr-10;
 }
-.what-we-do .paragraph{
+
+.paragraph {
     @apply font-sans text-lg;
 }
- .what-we-do .para2{
-     @apply md:pb-6 lg:pb-7; 
 
-} 
- .what-we-do .para3{
-     @apply md:pb-6 lg:mb-5; 
-
-} 
-.what-we-do .para4{
-      @apply md:mb-20 lg:mb-20 xl:mb-12;  
-
-} 
-.what-we-do .para5{
-     @apply lg:pb-16 xl:pb-7; 
+.para2 {
+    @apply md:pb-6 lg:pb-7;
 
 }
-.what-we-do .para6{
-     @apply xl:pb-7; 
 
-}  
- .what-we-do .card1{
+.para3 {
+    @apply md:pb-6 lg:mb-5;
+
+}
+
+.para4 {
+    @apply md:mb-20 lg:mb-20 xl:mb-12;
+
+}
+
+.para5 {
+    @apply lg:pb-16 xl:pb-7;
+
+}
+
+.para6 {
+    @apply xl:pb-7;
+
+}
+
+.card1 {
     @apply lg:ml-9 lg:mr-1;
-} 
-.what-we-do .card3{
+}
+
+.card3 {
     @apply lg:mr-9 lg:ml-1;
 }
-.what-we-do .card-circular:hover {
+
+.card-circular:hover {
     @apply bg-blue-500 text-white;
 }
 
-.what-we-do .card-circular:hover .vector {
+.card-circular:hover .vector {
     @apply fill-white;
 }
 
-.what-we-do .card-circular:hover h5 {
+.card-circular:hover h5 {
     @apply text-white;
 }
-
-
+}
