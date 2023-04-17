@@ -36,7 +36,7 @@ accordionHeaders.forEach(header => {
     } else {
       accordionItem.classList.remove('active');
       accordionContent.style.maxHeight = null;
-    }
+     }
   });
 });
 
