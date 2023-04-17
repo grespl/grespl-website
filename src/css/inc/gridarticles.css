@@ -4,15 +4,78 @@
 
 .container-box1{
   @apply py-[160px] px-[10px] lg:px-[20px] xl:px-[40px] 2xl:px-[190px]; 
-} 
+}  
 
 .home-grid{
-  @apply grid md:grid-cols-3 lg:grid-cols-3;
+  @apply grid md:grid-cols-3;
 } 
+
+
+.box{
+ @apply grid;
+}  
+.box span{
+ @apply uppercase font-bold tracking-[0.7px] text-sm;
+} 
+.box h4{
+ @apply block text-2xl  lg:text-4xl font-[600] mt-3;
+} 
+.box p{
+ @apply block text-base lg:text-lg mt-5;
+}  
+
+
+
+
+
+
+
+
+/* .box a.min-h-540{
+ @apply bg-white p-10;
+}   */
+
+/* .min-h-540 .pre{
+@apply text-blue-600 uppercase font-bold mb-[12px] tracking-[0.7px] text-sm;
+} */
+/* 
+.min-h-540 h4{
+  @apply block text-2xl  lg:text-4xl font-semibold mb-5;
+} 
+
+.min-h-540 p{
+  @apply  block text-base  lg:text-lg text-gray-500;
+}   */
+
+
+/* 
+.post-image-4{
+ @apply p-10 bg-white;
+}
+.box a.post-image-1{
+@apply   text-white p-10 bg-black;
+} 
+.box a.bg-mandy-pink{
+@apply bg-[rgb(228,76,125)] p-10 text-white;
+} 
+.box a.post-image-2{
+@apply p-10 text-white bg-red-300;
+}
+.box a.bg-aqua{
+@apply bg-[rgb(91,186,214)] p-10 text-white;
+}
+.box a.post-image-3{
+@apply p-10  text-white bg-green-500; 
+}  
+.box a.min-h-54{
+@apply bg-[rgb(59,74,100)] p-10 text-white;
+} 
+  */
+
 
 
 /* box1 */ 
-.box1{
+/* .box1{
 @apply grid;
 }  
 
@@ -59,10 +122,10 @@
 }
 .box1 a.bg-mandy-pink p{
 @apply block text-base lg:text-lg;
-}  
+}   */
 
 /* box2 */
-   
+/*    
 .box2{
 @apply grid;
 }
@@ -108,12 +171,12 @@
 } 
 .box2 a.white-bg p{
 @apply block text-base lg:text-lg text-gray-500;
-}   
+}    */
 
 
 /* box3 */
 
-.box3{
+/* .box3{
 @apply grid; 
 }
         
@@ -121,10 +184,10 @@
 @apply bg-white p-10;
 } 
 .box3 .pre7 {
-@apply text-blue-600 block uppercase font-bold mb-[12px] tracking-[0.7px] text-sm  lg:text-[14px];
+@apply text-blue-600 block uppercase font-bold mb-[12px] tracking-[0.7px] text-sm;
 }
 .box3 a.white-bg h4{
-@apply block text-2xl  lg:text-4xl font-[600] mb-5;
+@apply block text-2xl lg:text-4xl font-[600] mb-5;
 }
 .box3 a.white-bg p{
 @apply block text-base lg:text-lg text-gray-500;
@@ -161,8 +224,8 @@
 
 .box3 a.post-image-3 p{
 @apply block text-base lg:text-lg;
-}   
+}    */
+
 
 
   
-
