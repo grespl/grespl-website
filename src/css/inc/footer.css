@@ -45,7 +45,7 @@ footer{
     @apply text-white;
 }
 #services,#products,#company,#product{
-    @apply text-lg  border-[1px] rounded-md py-5 pl-4 mb-4 w-[88vw] md:w-0 md:pl-0 md:py-0 md:border-none
+    @apply text-lg  border-[1px] rounded-md py-3 pl-4 mb-4 w-[88vw] md:w-0 md:pl-0 md:py-0 md:border-none
     md:mt-4;
 }
 .accodion__icon{
@@ -54,9 +54,17 @@ footer{
 .angle__Icon{
     @apply mr-6  md:hidden;
 }
-#servicesinner ,#productsinner ,#companyinner{
-    @apply hidden text-[#a8aab4] text-sm md:block md:mt-[-15px];
+
+.accordion-body{
+    @apply hidden ml-4 mb-3 text-[#a8aab4] text-sm md:block md:mt-[-15px] md:ml-0 md:mb-0;
 }
+.accordion-body > ul > li:hover{
+ @apply text-gray-200;
+}
+.accordion-item.active .accordion-body{
+  display: block;
+}
+
 .location__info{
     @apply ml-6 mb-6 md:ml-0 md:mt-6;
 } 
@@ -72,28 +80,29 @@ footer{
     @apply text-sm  text-[#a8aab4];
 }
 .md-stamp{
-    @apply mb-4;
+    @apply mb-4 ml-6 md:ml-0;
 }
 .md-stamp > h2{
     @apply text-white text-lg md:mb-2;
 }
 .md-stamp__imgSection{
-    @apply flex gap-1 md:gap-4;
+    @apply flex flex-col gap-3 md:flex-row md:gap-4;
 }
 
 
 
 hr{
-    @apply w-[98%] mx-auto ;
+    @apply w-[96%] mx-auto ;
 }
 
 
 .privacy-content{
-    @apply my-6 ml-3 ;
+    @apply my-6 ml-6 pb-5 w-[95%] md:flex md:justify-between 
+    xl:w-[90%] xl:mx-auto  2xl:w-[68%] 2xl:mx-auto ;
 }  
 
 .privacy-content-01 span,
 .privacy-content-02 a{
-    @apply text-[#a8aab4];
+    @apply text-[#a8aab4] text-base;
 }
 

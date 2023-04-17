@@ -18,20 +18,27 @@ window.addEventListener('scroll',changeBg);
 
 
 // footer accordion section 
-const accordionHeaders = document.querySelectorAll('.accordion-header');
+const accordionHeaders = document.querySelectorAll('.accodion__icon');
 
 accordionHeaders.forEach(header => {
   header.addEventListener('click', () => {
-    const accordionContent = header.nextElementSibling;
-    
-    if (accordionContent.style.display === 'block') {
-      accordionContent.style.display = 'none';
+    const accordionItem = header.parentElement;
+    const accordionContent = accordionItem.querySelector('.accordion-body');
+    const isActive = accordionItem.classList.contains('active');
+
+    accordionHeaders.forEach(header => {
+      header.parentElement.classList.remove('active');
+    });
+
+    if (!isActive) {
+      accordionItem.classList.add('active');
+      accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
     } else {
-      accordionContent.style.display = 'block';
+      accordionItem.classList.remove('active');
+      accordionContent.style.maxHeight = null;
     }
   });
 });
-
 
 
 // sidebar section in mobile view
