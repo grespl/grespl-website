@@ -13,8 +13,6 @@
 } 
 
 
-  /* Box-Section Start */
- 
 .col-custom {
     @apply m-5 grid gap-5 md:grid-cols-[repeat(3,1fr)] md:grid-rows-[repeat(2,1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
 }   
@@ -25,7 +23,7 @@ h5 {
     @apply text-black font-semibold text-2xl pt-5 pb-5 ;
 }
 .paragraph {
-    @apply font-sans text-lg text-gray-500;
+    @apply font-sans text-lg;
 }  
 
 }
@@ -33,10 +31,11 @@ h5 {
 .grid-section:hover {
     @apply bg-blue-500 text-white;
 }
-.grid-section:hover .vector{
+/* .grid-section:hover .vector{
     @apply fill-white;
-}
+} */
 
 .grid-section:hover h5 {
     @apply text-white;
 }
+
