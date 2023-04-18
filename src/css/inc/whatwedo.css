@@ -1,41 +1,62 @@
 .what-we-do {
     @apply bg-white;
 
-.digital-ex {
-    @apply text-center lg:text-4xl lg:leading-normal;
+    .digital-ex {
+        @apply text-center lg:text-4xl lg:leading-normal;
+    }
+
+    .digital-para {
+        @apply text-center text-xl text-gray-600 m-5;
+    }
+
+    .bold {
+        @apply mb-14 font-bold text-center text-3xl lg:text-4xl;
+    }
+
+
+    .col-custom {
+        @apply m-5 grid gap-5 md:grid-cols-[repeat(3,1fr)] md:grid-rows-[repeat(2,1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
+    }
+
+    .grid-section {
+        @apply p-8 rounded shadow-[0px_0px_15px_-10px];
+    }
+
+    h5 {
+        @apply font-semibold text-2xl pt-5 pb-5;
+    }
+
+    .paragraph {
+        @apply font-sans text-lg;
+    }
 }
 
-.digital-para {
-    @apply text-center text-xl  text-gray-600 m-5;
-} 
-.bold {
-    @apply mb-14 font-bold text-center text-3xl lg:text-4xl;
-} 
 
-
-.col-custom {
-    @apply m-5 grid gap-5 md:grid-cols-[repeat(3,1fr)] md:grid-rows-[repeat(2,1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
-}   
- .grid-section{
-    @apply p-8 rounded shadow-[0px_0px_15px_-10px];
- }  
-h5 {
-    @apply text-black font-semibold text-2xl pt-5 pb-5 ;
-}
-.paragraph {
-    @apply font-sans text-lg;
-}  
-
-}
-
-.grid-section:hover {
-    @apply bg-blue-500 text-white;
-}
-/* .grid-section:hover .vector{
-    @apply fill-white;
-} */
-
-.grid-section:hover h5 {
-    @apply text-white;
-}
-
+    
+    .svg-block {
+        @apply bg-blue-600 w-[110px] h-[110px];
+    }
+    .grid-section:hover {
+        @apply bg-blue-600 text-white;
+    }
+    .grid-section:hover .svg-block {
+        @apply bg-white;
+    }
+    .Cloud-Transformation {
+        mask-image: url(/svg-images/cloud-transformation.svg);
+    }
+    .Artificial-Intelligence {
+        mask-image: url(/svg-images/Artificial-intelligence.svg);
+    }
+    .Product-Engineering {
+        mask-image: url(/svg-images/Product\ Engineering.svg);
+    }
+    .Data-Analytics {
+        mask-image: url(/svg-images/Data\ Analytics.svg);
+    }
+    .Experience-Design {
+        mask-image: url(/svg-images/Experience\ Design.svg);
+    }
+    .Digital-Transformation {
+        mask-image: url(/svg-images/Digital\ Transformation.svg);
+    }
