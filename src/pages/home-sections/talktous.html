@@ -1,32 +1,32 @@
 <section id="talk-to-us" class="bg-[url('/image/computer.png')]">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 			<div class="talk_to_us_section">
 				<div>
 					<h3 class="challenge">Challenges bring the best out of us. What about you?</h3>
 				</div>
-				<div>
+				<div id="para-button">
 					<p class="paragraph">
 						We love what we do so much and we’re always looking for the next big challenge, the next problem to be solved, the next
 						idea that simply needs the breath of life to become a reality. What’s your challenge?
 					</p>
 					<label for="toggle-modal" class="btn-modal_open">
-						Talk to us <i class="fa fa-arrow-right text-white ml-2"></i>
+						Talk to us <i class='fas fa-arrow-right text-white ml-6'></i>
+					
 					</label> 
-						<div id="myModal" class="modalCheckbox">
-							<input type="checkbox" id="toggle-modal">
-							<label for="toggle-modal" class="modal-overlay"></label>
-							<div class="modal-dialog">
-								<h2 class="modal-body ">Talk To Us</h2>
-								<form class="modal-header">
-									<input class="model-info" type="text" name="name" placeholder="Enter name" size="50" required>
-									<input class="model-info" type="email" name="email" placeholder="Enter email" size="50" required>
-									<textarea class="model-info" name="message" cols="50" rows="3"  placeholder="Enter massage"></textarea>
-									<label for="toggle-modal" class="btn-close">submit</label>
-								</form>		
-							</div>
-						</div>
 				</div>
 			</div>
-		</div> 
-	</div>				
+			<div id="myModal" class="modalCheckbox">
+				<input type="checkbox" id="toggle-modal">
+				<label for="toggle-modal" class="modal-overlay"></label>
+				<div id="modal-dialog">
+					<form class="modal-header">
+						<h1 class="modal-body">Talk To Us</h1>
+						<input class="model-info" type="text" name="name" placeholder="Enter name" size="50" required>
+						<input class="model-info" type="email" name="email" placeholder="Enter email" size="50" required>
+						<textarea class="model-info" name="message" cols="50" rows="3"  placeholder="Enter massage"></textarea>
+						<label for="toggle-modal" class="btn-close">submit</label>
+					</form>		
+				</div>
+			</div>			
 </section>

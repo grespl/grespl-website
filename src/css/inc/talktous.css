@@ -1,61 +1,46 @@
-#talk-to-us{ 
-    @apply h-[50vh] bg-no-repeat bg-cover bg-center flex; 
- 
+#talk-to-us{
+    @apply bg-cover bg-center bg-no-repeat md:h-96;
+
     .talk_to_us_section{
-        @apply  bg-gray-600 justify-center grid xl:grid-cols-[1fr_1fr] xl:grid-rows-1 xl:w-[60%] lg:grid-cols-[1fr_1fr] lg:grid-rows-1 md:grid-cols-[1fr_1fr] md:grid-rows-1 mx-auto z-10 md:h-96 -mt-28;
+        @apply bg-gray-600 grid px-4 py-4 md:grid-cols-[1fr_1fr] md:grid-rows-[1fr] md:gap-14 md:px-14 md:absolute md:mx-auto md:-my-28 lg:mx-20 xl:w-[70%] xl:mx-60;
     }
     .challenge{
-        @apply font-extrabold leading-[46.08px] text-3xl text-white mx-6 mt-8 md:mx-16 md:my-16 lg:mx-20 xl:mx-10 xl:p-2 xl:my-14 ;
+        @apply text-3xl font-extrabold leading-10 text-white mt-10 lg:text-4xl xl:text-4xl xl:ml-4;
     }
     .paragraph{
-        @apply  text-white font-normal leading-7 text-lg mt-5 mx-6 md:mt-16 md:mx-14 xl:mt-14 xl:pt-5 xl:mx-10;
+        @apply text-lg font-normal leading-7 text-white mt-6 md:mt-10;
     }
     .btn-modal_open{
-        @apply text-xl font-semibold leading-8 bg-blue-600 text-white cursor-pointer py-4 px-8 inline-block my-12 mx-6 md:mx-14 xl:mx-10;
+        @apply text-xl font-semibold bg-blue-600 text-white px-5 py-5 mt-14 w-48;
     }
-    .btn-modal_open:hover{
-        @apply bg-blue-700; 
-    }
-    .modalCheckbox{
-        @apply hidden;
-    }
-    /* .challenge{
-        @apply bg-red-200  text-white text-3xl font-extrabold leading-10 mx-6 mt-8 md:mx-[40px] not-italic lg:mx-[55px] lg:my-12;
-    }
-    .paragraph{lg:grid-cols-[500px_500px] lg:grid-rows-1 lg:w-[60%] mx-auto
-        @apply  text-white bg-green-200 text-lg font-normal leading-7 mx-6 mt-4 not-italic md:mt-8  lg:mx-[40px] lg:mt-[50px];
-    } */
-    /* .btn-modal_open{
-        @apply text-[21px] font-semibold leading-[32px]  bg-blue-600 p-[10px] text-white cursor-pointer ml-[24px]  text-center md:mx-[27px] lg:mx-10  ;
-    } */
-    /* .btn-modal_open:hover{
-        @apply bg-blue-700; 
-    }
-    .modal-dialog{
-        @apply w-[530px] bg-white h-[350px] rounded absolute top-[-100%] left-[45%] transition-all fixed ;
+    #para-button{
+        @apply grid mb-14;
     }
     .modal-overlay{
-        @apply  fixed top-0 bottom-0 left-0 right-0 bg-black opacity-[0.8] hidden;
+        @apply top-0 bottom-0 right-0 left-0 bg-black fixed opacity-75 hidden;
+    }
+    #modal-dialog{
+        @apply bg-white p-12 rounded md:mx-28 lg:mx-56 xl:w-[35%] xl:mx-auto relative hidden;
+    }
+    .modal-header{
+        @apply  grid grid-cols-[90%] justify-center align-middle;
     }
     .modal-body{
-        @apply  my-4 mx-11 font-extrabold text-4xl;
+        @apply font-extrabold leading-loose text-4xl ;
     }
     .model-info{
-        @apply mt-1 mx-12 mb-2;
+        @apply my-3 ;
     }
     .btn-close{
-        @apply bg-blue-600 p-[8px] rounded text-white text-2xl cursor-pointer ml-12 ;
+        @apply bg-blue-600 flex w-28 justify-center p-2 rounded text-white font-normal leading-8 text-xl;
     }
-    .btn-close:hover{
-        @apply bg-blue-700;
-    }
-    #toggle-modal:checked  ~ .modal-dialog{
-        @apply top-[510%] duration-300 transform ;
+    #toggle-modal:checked ~ #modal-dialog{
+        @apply top-0 transition duration-300 delay-100 md:fixed md:top-40 xl:left-[30%] block;
     }
     #toggle-modal:checked ~ .modal-overlay{
         @apply block;
     }
     #toggle-modal{
-         @apply hidden;
-    } */
+        @apply hidden;
+    }
 }
