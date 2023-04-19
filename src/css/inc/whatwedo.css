@@ -1,73 +1,68 @@
-.container-box {
-    @apply flex flex-col;
-}
-.container-box .digital-ex {
-    @apply text-center lg:text-4xl lg:leading-[50px];
-}
+.what-we-do {
+    @apply bg-white;
 
-.container-box .digital-para {
-    @apply text-center text-lg text-gray-600 m-5;
-}
+    .digital-ex {
+        @apply text-center lg:text-4xl lg:leading-normal;
+    }
 
-.container-box .bold {
-    @apply  mb-14;
-}
-.container-box div .bold {
-    @apply text-3xl font-bold lg:text-4xl;
-}
+    .digital-para {
+        @apply text-center text-xl text-gray-600 m-5;
+    }
 
-.container-box .col-custom {
-    @apply md:grid justify-center md:grid-cols-3 text-gray-600 lg:p-5 lg:grid-cols-[350px_350px_350px] xl:grid-cols-[420px_420px_420px];
-}
-
-.container-box .card-circular {
-    @apply m-5 md:mb-2 pt-2 pb-2 rounded shadow-[0px_0px_40px_-25px] lg:pt-5 lg:pb-5;
-}
-.container-box h5{
-    @apply text-black lg:w-[200px] xl:w-[300px];
-}
-.container-box .para,svg,h5 {
-    @apply m-5 lg:ml-10 lg:mr-10;
-}
-.container-box .para{
-    @apply font-sans;
-}
-.container-box .para2{
-    @apply md:pb-7;
-}
- .container-box .para3{
-    @apply md:mb-12;
-}
-.container-box .para4{
-    @apply md:mb-20 xl:mb-12;
-} 
-.container-box .para5{
-    @apply lg:pb-16 xl:pb-7;
-}
- .container-box .para6{
-    @apply xl:pb-7;
-} 
-.container-box h5 {
-    @apply font-semibold text-[23px];
-}
- .container-box .card1{
-    @apply md:ml-9 md:mr-1;
-} 
-.container-box .card3{
-    @apply md:mr-9 md:ml-1;
-}
-.container-box .card-circular:hover {
-    @apply bg-blue-500 text-white;
-}
-
-.container-box .card-circular:hover .vector {
-    @apply fill-white;
-}
-
-.container-box .card-circular:hover h5 {
-    @apply text-white;
-}
+    .bold {
+        @apply mb-14 font-bold text-center text-3xl lg:text-4xl;
+    }
 
 
+    .col-custom {
+        @apply m-5 grid gap-5 md:grid-cols-[repeat(3,1fr)] md:grid-rows-[repeat(2,1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
+    }
 
+    .grid-section {
+        @apply p-8 rounded shadow-[0px_0px_15px_-10px];
+    }
 
+    h5 {
+        @apply font-semibold text-2xl pt-5 pb-5;
+    }
+
+    .paragraph {
+        @apply font-sans text-lg;
+    }
+}
+
+    .Cloud-Transformation {
+        mask-image: url(/svg-images/cloud-transformation.svg);
+    }
+
+    .Artificial-Intelligence {
+        mask-image: url(/svg-images/Artificial-intelligence.svg);
+    }
+
+    .Product-Engineering {
+        mask-image: url(/svg-images/Product\ Engineering.svg);
+    }
+
+    .Data-Analytics {
+        mask-image: url(/svg-images/Data\ Analytics.svg);
+    }
+
+    .Experience-Design {
+        mask-image: url(/svg-images/Experience\ Design.svg);
+    }
+
+    .Digital-Transformation {
+        mask-image: url(/svg-images/Digital\ Transformation.svg);
+    }
+
+    .svg-block {
+        @apply bg-blue-600 w-[110px] h-[110px];
+    }
+
+    .grid-section:hover {
+        @apply bg-blue-600 text-white;
+    }
+
+    .grid-section:hover .svg-block {
+        @apply bg-white;
+    }
