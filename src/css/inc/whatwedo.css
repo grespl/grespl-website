@@ -2,7 +2,7 @@
     @apply bg-white;
 
     .digital-ex {
-        @apply text-center lg: text-4xl lg:leading-normal;
+        @apply text-center lg:text-4xl lg:leading-normal;
     }
 
     .digital-para {
@@ -10,12 +10,12 @@
     }
 
     .bold {
-        @apply mb-14 font-bold text-center text-3xl lg: text-4xl;
+        @apply mb-14 font-bold text-center text-3xl lg:text-4xl;
     }
 
 
     .col-custom {
-        @apply m-5 grid gap-5 md: grid-cols-[repeat(3, 1fr)] md:grid-rows-[repeat(2, 1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
+        @apply m-5 grid gap-5 md:grid-cols-[repeat(3,1fr)] md:grid-rows-[repeat(2,1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
     }
 
     .grid-section {
