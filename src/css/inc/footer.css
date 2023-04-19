@@ -1,26 +1,26 @@
 footer{
-    @apply  bg-[#303642];
-}
+    @apply p-6 bg-[#303642];
+} 
 .footer__SectionArea {
-    @apply p-6 grid grid-cols-1  md:grid-cols-[250px_1fr] md:gap-x-4
+    @apply  grid grid-cols-1  md:grid-cols-[250px_1fr] md:gap-x-4
     xl:w-[90%] xl:mx-auto  2xl:w-[70%] 2xl:mx-auto;
-}
+}  
 /* ==================================================== */
-.footer__section1{
-    @apply grid grid-cols-1 grid-flow-row  gap-y-5 text-white;
+ .footer__section1{
+    @apply grid grid-cols-1 md:grid-rows-[400px_1fr] text-white;
 }
 
-/* .footer__section1 .infomation{
-    @apply ml-6 mt-6;
-} */
- .footer__section1 .infomation p{
+ .footer__section1 .infomation{
+    @apply mt-6 mb-4;
+} 
+  .footer__section1 .infomation p{
     @apply text-base text-[#a8aab4];
 }  
 .footer__section1 .infomation .GR-logo{
-    @apply mb-6;
+    @apply mb-6 mt-2;
 }
 .footer__section1 .socials{
-    @apply  mb-6 md:mb-4 md:flex md:items-end;
+    @apply  mb-6 md:mb-0 md:flex md:items-end;
 }
 .socials span{
     @apply text-lg;
@@ -31,45 +31,55 @@ footer{
 .footer__section1 .socials .social__logo > a{
     @apply text-black bg-white w-[30px] h-[30px] flex justify-center items-center
     rounded-sm;
-}
+} 
 
 /* ===================================================== */
 
 .footer__section2{
-    @apply grid grid-cols-1;
-}
-.accordion__Group{
-    @apply  md:grid md:grid-cols-3;
-}
-.angle__Icon{
-    @apply text-white;
-}
-#services,#products,#company,#product{
-    @apply text-lg  border-[1px] rounded-md py-3 pl-4 mb-4 w-[100%] md:w-0 md:pl-0 md:py-0 md:border-none
-    md:mt-4;
-}
-.accodion__icon{
-    @apply flex justify-between;
-}
-.angle__Icon{
-    @apply mr-6  md:hidden;
+    @apply grid grid-cols-1 md:grid-rows-2;
 }
 
-.accordion-body{
-    @apply hidden ml-4 mb-3 text-[#a8aab4] text-sm md:block md:mt-[-15px] md:ml-0 md:mb-0;
+/* extra accodion pratice */
+
+.footer__section2 > section{
+    @apply bg-[#303642]  mb-4 md:mb-0 md:pt-4 md:grid md:grid-cols-3;;                                                                                                                                                                                                                                                                                
 }
-.accordion-body > ul > li:hover{
- @apply text-gray-200;
+.acc-body{
+    @apply hidden pb-4  text-sm px-4 md:pb-0 md:px-0 md:py-0  md:block ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+  }
+
+  .acc-body > ul > li{
+    @apply text-[#a8aab4];
+  }
+  .acc-body > ul > li:hover{
+    @apply text-gray-300;
+  }
+  
+  .fa-chevron-right{
+      @apply text-white transition-all ease-in-out duration-500 float-right
+       text-[20px] md:opacity-0;
+    
+    
+    
+  }
+  .sectionOne, .sectionTwo, .sectionThree{
+    @apply md:mt-4;
+  }
+  .acc-head{
+    @apply mb-3 py-3 px-3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                md:py-0 md:px-0 md:mb-0 bg-[#303642] border-[1px] flex justify-between
+    content-center cursor-pointer w-[100%]
+    rounded-md border-white md:border-none md:rounded-none;
 }
-.accordion-item.active .accordion-body{
-  display: block;
+.acc-head h2{
+    @apply text-white  text-lg;
+    
 }
 
 .location__info{
     @apply  mb-6 md:ml-0 md:mt-6;
 } 
-.location__info h2{
-    @apply text-white text-lg;
+.location__info h2{                                                                                                                                                                                                                     
+    @apply text-white text-lg;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 }
  .location__info .locationInfo__Section{
     @apply grid grid-cols-1 grid-flow-row gap-4 text-white md:grid-cols-3 md:gap-0;
@@ -79,11 +89,11 @@ footer{
 } .locationAddressinfo > p{
     @apply text-sm  text-[#a8aab4];
 }
-.md-stamp{
-    @apply mb-4;
-}
+ .md-stamp{
+    @apply md:mt-4;
+} 
 .md-stamp > h2{
-    @apply text-white text-lg md:mb-2;
+    @apply text-white text-lg;
 }
 .md-stamp__imgSection{
     @apply flex flex-col gap-3 md:flex-row md:gap-4;
@@ -91,18 +101,21 @@ footer{
 
 
 
-hr{
-    @apply w-[96%] mx-auto ;
+ hr{
+    @apply w-[100%] mx-auto  mt-4;
 }
 
 
 .privacy-content{
-    @apply my-6 ml-6 pb-5 w-[95%] md:flex md:justify-between 
-    xl:w-[90%] xl:mx-auto  2xl:w-[68%] 2xl:mx-auto ;
+    @apply  mt-4 w-[100%] md:flex md:justify-between xl:w-[90%] xl:mx-auto 2xl:w-[70%] ;                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+     
 }  
 
 .privacy-content-01 span,
 .privacy-content-02 a{
     @apply text-[#a8aab4] text-base;
-}
+} 
+
+  
+
 
