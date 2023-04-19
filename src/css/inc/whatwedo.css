@@ -60,7 +60,7 @@
 }
 
 .grid-section:hover {
-    @apply bg-blue-600 text-white;
+    @apply bg-blue-600 transition duration-300 text-white;
 }
 
 .grid-section:hover .svg-block {
