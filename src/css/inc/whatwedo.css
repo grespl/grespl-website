@@ -40,21 +40,20 @@
     }
 
     .Product-Engineering {
-        mask-image: url(/svg-images/Product\ Engineering.svg);
+        mask-image: url(/svg-images/Product\Engineering.svg);
     }
 
     .Data-Analytics {
-        mask-image: url(/svg-images/Data\ Analytics.svg);
+        mask-image: url(/svg-images/Data\Analytics.svg);
     }
 
     .Experience-Design {
-        mask-image: url(/svg-images/Experience\ Design.svg);
+        mask-image: url(/svg-images/Experience\Design.svg);
     }
 
     .Digital-Transformation {
-        mask-image: url(/svg-images/Digital\ Transformation.svg);
+        mask-image: url(/svg-images/Digital\Transformation.svg);
     }
-
     .svg-block {
         @apply bg-blue-600 w-[110px] h-[110px];
     }
