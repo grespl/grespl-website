@@ -20,7 +20,7 @@ module.exports = {
         },
         'secondary': {
           DEFAULT: '#094E5D',
-          '50': '#dae4e7',
+          '50':  '#dae4e7',
           '100': '#b2c4ca',
           '200': '#8ba5ad',
           '300': '#648791',

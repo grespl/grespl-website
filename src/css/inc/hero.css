@@ -1,0 +1,9 @@
+#hero-section{
+    @apply h-[850px] bg-no-repeat bg-cover bg-center flex;
+    background-image: url('/image/woman-holding-flag.jpg');
+
+    h1{
+        @apply text-white font-[900] text-[28px] top-[47%] absolute left-[15%] uppercase md:text-[40px] md:leading-[52px] md:top-[48%] md:left-[20%] lg:text-[40.96px] lg:leading-[53.248px] lg:top-[48%] lg:left-[20%] xl:top-[45%] xl:text-[48px] xl:leading-[62.4px] xl:left-[25%]; 
+    }
+    
+}

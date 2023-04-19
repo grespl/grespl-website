@@ -87,12 +87,14 @@
 } 
 .box1 a.min-h-540 p{
 @apply  block text-base  lg:text-lg text-gray-500;
+
 }   
 
 
 
 
 .box1 a.post-image-1{
+
 @apply   text-white p-10;
 } 
 .box1 .pre2 {
@@ -123,11 +125,13 @@
 
 /* box2 */
 /*    
+
 .box2{
 @apply grid;
 }
 
 .box2 a.post-image-2{
+
 @apply p-10 text-white ;
 }
 .box2 .pre4 {
@@ -138,11 +142,13 @@
 }
 .box2 a.post-image-2 p{
 @apply block text-base lg:text-lg;
+
 }  
 
 
 
 .box2 a.bg-aqua{
+
 @apply bg-[rgb(91,186,214)] p-10 text-white;
 }
 .box2 .pre5{
@@ -188,12 +194,14 @@
 }
 .box3 a.white-bg p{
 @apply block text-base lg:text-lg text-gray-500;
+
 }   
 
 
 
 
 .box3 a.min-h-540{
+
 @apply bg-[rgb(59,74,100)] p-10 text-white;
 }
 .box3 .pre8 {
@@ -226,3 +234,4 @@
 
 
   
+

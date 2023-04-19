@@ -49,6 +49,12 @@ function copyCSS(cb) {
     cb();
 }
 
+function copyJS(cb) {
+    return src('./src/js/index.js')
+            .pipe(dest('./public/js/'));;
+    cb();
+}
+
 // Watch Files & Reload browser after tasks
 function watchTask() {
     watch("./src/**/*.html",series(htmlTask, cssTask, browsersyncReload, copyCSS));
@@ -56,6 +62,6 @@ function watchTask() {
 }
 
 // Default Gulp Task
-exports.default = series(htmlTask, cssTask, copyCSS, browsersyncServe, watchTask);
+exports.default = series(htmlTask, cssTask, copyCSS, copyJS, browsersyncServe, watchTask);
 // exports.css = cssTask;
 // exports.images = imageminTask;
