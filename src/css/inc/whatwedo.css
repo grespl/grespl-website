@@ -2,7 +2,7 @@
     @apply bg-white;
 
     .digital-ex {
-        @apply text-center lg:text-4xl lg:leading-normal;
+        @apply text-center lg: text-4xl lg:leading-normal;
     }
 
     .digital-para {
@@ -10,12 +10,12 @@
     }
 
     .bold {
-        @apply mb-14 font-bold text-center text-3xl lg:text-4xl;
+        @apply mb-14 font-bold text-center text-3xl lg: text-4xl;
     }
 
 
     .col-custom {
-        @apply m-5 grid gap-5 md:grid-cols-[repeat(3,1fr)] md:grid-rows-[repeat(2,1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
+        @apply m-5 grid gap-5 md: grid-cols-[repeat(3, 1fr)] md:grid-rows-[repeat(2, 1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
     }
 
     .grid-section {
@@ -31,38 +31,38 @@
     }
 }
 
-    .Cloud-Transformation {
-        mask-image: url(/svg-images/cloud-transformation.svg);
-    }
+.cloud-transformation {
+    mask-image: url(/images/cloud-transformation.svg);
+}
 
-    .Artificial-Intelligence {
-        mask-image: url(/svg-images/Artificial-intelligence.svg);
-    }
+.artificial-intelligence {
+    mask-image: url(/images/artificial-intelligence.svg);
+}
 
-    .Product-Engineering {
-        mask-image: url(/svg-images/Product\ Engineering.svg);
-    }
+.product-engineering {
+    mask-image: url(/images/product-engineering.svg);
+}
 
-    .Data-Analytics {
-        mask-image: url(/svg-images/Data\ Analytics.svg);
-    }
+.data-analytics {
+    mask-image: url(/images/data-analytics.svg);
+}
 
-    .Experience-Design {
-        mask-image: url(/svg-images/Experience\ Design.svg);
-    }
+.experience-design {
+    mask-image: url(/images/experience-design.svg);
+}
 
-    .Digital-Transformation {
-        mask-image: url(/svg-images/Digital\ Transformation.svg);
-    }
+.digital-transformation {
+    mask-image: url(/images/digital-transformation.svg);
+}
 
-    .svg-block {
-        @apply bg-blue-600 w-[110px] h-[110px];
-    }
+.svg-block {
+    @apply bg-blue-600 w-[110px] h-[110px];
+}
 
-    .grid-section:hover {
-        @apply bg-blue-600 text-white;
-    }
+.grid-section:hover {
+    @apply bg-blue-600 text-white;
+}
 
-    .grid-section:hover .svg-block {
-        @apply bg-white;
-    }
+.grid-section:hover .svg-block {
+    @apply bg-white;
+}
