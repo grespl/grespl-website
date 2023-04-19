@@ -19,11 +19,11 @@
     }
 
     .grid-section {
-        @apply p-8 rounded shadow-[0px_0px_15px_-10px];
+        @apply p-8 rounded shadow-[0px_0px_15px_-10px] text-gray-600;
     }
 
     h5 {
-        @apply font-semibold text-2xl pt-5 pb-5;
+        @apply font-semibold text-2xl pt-5 pb-5 text-black;
     }
 
     .paragraph {
@@ -65,4 +65,7 @@
 
 .grid-section:hover .svg-block {
     @apply bg-white;
+}
+.grid-section:hover h5{
+    @apply text-white;
 }
