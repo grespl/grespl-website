@@ -1,82 +1,68 @@
 .what-we-do {
     @apply bg-white;
 
-.digital-ex {
-    @apply text-center lg:text-4xl lg:leading-normal;
+    .digital-ex {
+        @apply text-center lg:text-4xl lg:leading-normal;
+    }
+
+    .digital-para {
+        @apply text-center text-xl text-gray-600 m-5;
+    }
+
+    .bold {
+        @apply mb-14 font-bold text-center text-3xl lg:text-4xl;
+    }
+
+
+    .col-custom {
+        @apply m-5 grid gap-5 md:grid-cols-[repeat(3,1fr)] md:grid-rows-[repeat(2,1fr)] xl:w-[80%] 2xl:w-[60%] xl:mx-auto lg:my-auto;
+    }
+
+    .grid-section {
+        @apply p-8 rounded shadow-[0px_0px_15px_-10px];
+    }
+
+    h5 {
+        @apply font-semibold text-2xl pt-5 pb-5;
+    }
+
+    .paragraph {
+        @apply font-sans text-lg;
+    }
 }
 
-.digital-para {
-    @apply text-center text-xl text-gray-600 m-5;
-}
+    .Cloud-Transformation {
+        mask-image: url(/svg-images/cloud-transformation.svg);
+    }
 
-div .bold {
-    @apply mb-14 font-bold text-center text-3xl lg:text-4xl;
-}
+    .Artificial-Intelligence {
+        mask-image: url(/svg-images/Artificial-intelligence.svg);
+    }
 
-.col-custom {
-    @apply text-gray-600 md:grid justify-center md:grid-cols-3 lg:p-5 lg:grid-cols-[350px_350px_350px] xl:grid-cols-[420px_420px_420px];
-}
+    .Product-Engineering {
+        mask-image: url(/svg-images/Product\ Engineering.svg);
+    }
 
-.card-circular {
-    @apply m-5 pt-2 pb-2 rounded shadow-[0px_0px_15px_-10px] md:mb-2 lg:pt-5 lg:pb-5;
-}
+    .Data-Analytics {
+        mask-image: url(/svg-images/Data\ Analytics.svg);
+    }
 
-h5 {
-    @apply text-black font-semibold text-2xl lg:w-52 xl:w-72;
-}
+    .Experience-Design {
+        mask-image: url(/svg-images/Experience\ Design.svg);
+    }
 
-.paragraph,
-svg,
-h5 {
-    @apply m-5 lg:ml-10 lg:mr-10;
-}
+    .Digital-Transformation {
+        mask-image: url(/svg-images/Digital\ Transformation.svg);
+    }
 
-.paragraph {
-    @apply font-sans text-lg;
-}
+    .svg-block {
+        @apply bg-blue-600 w-[110px] h-[110px];
+    }
 
-.para2 {
-    @apply md:pb-6 lg:pb-7;
+    .grid-section:hover {
+        @apply bg-blue-600 text-white;
+    }
 
-}
-
-.para3 {
-    @apply md:pb-6 lg:mb-5;
-
-}
-
-.para4 {
-    @apply md:mb-20 lg:mb-20 xl:mb-12;
-
-}
-
-.para5 {
-    @apply lg:pb-16 xl:pb-7;
-
-}
-
-.para6 {
-    @apply xl:pb-7;
-
-}
-
-.card1 {
-    @apply lg:ml-9 lg:mr-1;
-}
-
-.card3 {
-    @apply lg:mr-9 lg:ml-1;
-}
-
-.card-circular:hover {
-    @apply bg-blue-500 text-white;
-}
-
-.card-circular:hover .vector {
-    @apply fill-white;
-}
-
-.card-circular:hover h5 {
-    @apply text-white;
-}
-}
+    .grid-section:hover .svg-block {
+        @apply bg-white;
+    }
