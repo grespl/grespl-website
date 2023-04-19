@@ -1,10 +1,7 @@
 #grid-article{
-  @apply bg-gray-100;
+  @apply bg-gray-100 py-[160px] sm:px-[60px] md:px-[60px] lg:px-[20px] xl:px-[60px] 2xl:px-[190px];
 }
 
-.container-box1{
-  @apply py-[160px] px-[10px] md:px-[40px] lg:px-[20px] xl:px-[40px] 2xl:px-[190px]; 
-}  
 
 .home-grid{
   @apply grid md:grid-cols-3;
