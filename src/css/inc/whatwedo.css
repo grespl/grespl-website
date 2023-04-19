@@ -19,11 +19,11 @@
     }
 
     .grid-section {
-        @apply p-8 rounded shadow-[0px_0px_15px_-10px];
+        @apply p-8 rounded shadow-[0px_0px_15px_-10px] text-gray-600;
     }
 
     h5 {
-        @apply font-semibold text-2xl pt-5 pb-5;
+        @apply font-semibold text-2xl pt-5 pb-5 text-black;
     }
 
     .paragraph {
@@ -31,38 +31,41 @@
     }
 }
 
-    .Cloud-Transformation {
-        mask-image: url(/svg-images/cloud-transformation.svg);
-    }
+.cloud-transformation {
+    mask-image: url(/images/cloud-transformation.svg);
+}
 
-    .Artificial-Intelligence {
-        mask-image: url(/svg-images/Artificial-intelligence.svg);
-    }
+.artificial-intelligence {
+    mask-image: url(/images/artificial-intelligence.svg);
+}
 
-    .Product-Engineering {
-        mask-image: url(/svg-images/Product\ Engineering.svg);
-    }
+.product-engineering {
+    mask-image: url(/images/product-engineering.svg);
+}
 
-    .Data-Analytics {
-        mask-image: url(/svg-images/Data\ Analytics.svg);
-    }
+.data-analytics {
+    mask-image: url(/images/data-analytics.svg);
+}
 
-    .Experience-Design {
-        mask-image: url(/svg-images/Experience\ Design.svg);
-    }
+.experience-design {
+    mask-image: url(/images/experience-design.svg);
+}
 
-    .Digital-Transformation {
-        mask-image: url(/svg-images/Digital\ Transformation.svg);
-    }
+.digital-transformation {
+    mask-image: url(/images/digital-transformation.svg);
+}
 
-    .svg-block {
-        @apply bg-blue-600 w-[110px] h-[110px];
-    }
+.svg-block {
+    @apply bg-blue-600 w-[110px] h-[110px];
+}
 
-    .grid-section:hover {
-        @apply bg-blue-600 text-white;
-    }
+.grid-section:hover {
+    @apply bg-blue-600 transition duration-300 text-white;
+}
 
-    .grid-section:hover .svg-block {
-        @apply bg-white;
-    }
+.grid-section:hover .svg-block {
+    @apply bg-white;
+}
+.grid-section:hover h5{
+    @apply text-white;
+}
