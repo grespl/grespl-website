@@ -3,13 +3,13 @@
 }
 
 .container-box1{
-  @apply py-[160px] px-[10px] lg:px-[20px] xl:px-[40px] 2xl:px-[190px]; 
+  @apply py-[160px] px-[10px] md:px-[40px] lg:px-[20px] xl:px-[40px] 2xl:px-[190px]; 
 }  
 
 .home-grid{
   @apply grid md:grid-cols-3;
 } 
-
+ 
 
 .box{
  @apply grid;
