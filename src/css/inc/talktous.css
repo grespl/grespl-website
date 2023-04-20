@@ -1,41 +1,38 @@
-#talk-to-us{
-    @apply bg-cover bg-center bg-no-repeat md:h-96;
-
-    .talk_to_us_section{
-        @apply bg-gray-600 grid px-4 py-4 md:grid-cols-[1fr_1fr] md:grid-rows-[1fr] md:gap-14 md:px-14 md:absolute md:mx-auto md:-my-28 lg:mx-20 xl:w-[70%] xl:mx-60;
-    }
-    .challenge{
-        @apply text-3xl font-extrabold leading-10 text-white mt-10 lg:text-4xl xl:text-4xl xl:ml-4;
+ #talk-to-us{
+     @apply  bg-cover bg-no-repeat bg-center flex justify-center align-middle mt-2 md:h-[40vh] lg:h-[50vh];
+     background-image: url('/images/computer.png');
+     .talk_to_us_section{
+        @apply bg-gray-700 py-[60px] px-5 md:grid md:grid-cols-2 absolute md:mx-10 md:-mt-24 md:px-10 lg:px-16 2xl:w-[60%] 2xl:px-5; 
+     }
+     .challenge{
+        @apply text-3xl font-bold text-white mb-5 md:px-3 lg:pr-10 2xl:px-14 ;
     }
     .paragraph{
-        @apply text-lg font-normal leading-7 text-white mt-6 md:mt-10;
+        @apply  text-lg text-white mb-16 md:pl-7 md:pr-3 2xl:px-10;
     }
     .btn-modal_open{
-        @apply text-xl font-semibold bg-blue-600 text-white px-5 py-5 mt-14 w-48;
-    }
-    #para-button{
-        @apply grid mb-14;
+        @apply text-xl bg-blue-600  text-white px-8 py-4 md:ml-7 2xl:ml-10 ;
+    } 
+    .model-info{
+        @apply  w-[100%] my-3;
     }
     .modal-overlay{
         @apply top-0 bottom-0 right-0 left-0 bg-black fixed opacity-75 hidden;
     }
     #modal-dialog{
-        @apply bg-white p-12 rounded md:mx-28 lg:mx-56 xl:w-[35%] xl:mx-auto relative hidden;
+        @apply bg-white p-12 rounded  h-[450px] absolute top-[-1500%];
     }
     .modal-header{
         @apply  grid grid-cols-[90%] justify-center align-middle;
     }
     .modal-body{
-        @apply font-extrabold leading-loose text-4xl ;
-    }
-    .model-info{
-        @apply my-3 ;
+        @apply font-extrabold leading-loose text-4xl;
     }
     .btn-close{
         @apply bg-blue-600 flex w-28 justify-center p-2 rounded text-white font-normal leading-8 text-xl;
     }
     #toggle-modal:checked ~ #modal-dialog{
-        @apply top-0 transition duration-300 delay-100 md:fixed md:top-40 xl:left-[30%] block;
+        @apply top-[20%] transition-all duration-300 md:fixed md:left-[10%] lg:left-[20%] xl:left-[30%] 2xl:left-[35%] block;
     }
     #toggle-modal:checked ~ .modal-overlay{
         @apply block;
@@ -43,6 +40,4 @@
     #toggle-modal{
         @apply hidden;
     }
-}
-
-
+ }
