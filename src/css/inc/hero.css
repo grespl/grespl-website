@@ -1,9 +1,8 @@
 #hero-section{
-    @apply h-[850px] bg-no-repeat bg-cover bg-center flex;
-    background-image: url('/images/woman-holding-flag.jpg');
+    @apply bg-[url('/images/woman-holding-flag.jpg')] h-[850px] bg-no-repeat bg-cover bg-center flex;
 
     h1{
-        @apply text-white font-extrabold text-3xl top-[47%] absolute left-[15%] uppercase md:text-4xl md:leading-10 md:top-[48%] md:left-[20%] lg:text-4xl lg:leading-10 lg:top-[48%] lg:left-[20%] xl:top-[45%] xl:text-5xl xl:leading-[62.4px] xl:left-[25%]; 
+        @apply text-white font-bold text-3xl top-[47%] absolute left-[15%] uppercase md:text-4xl md:leading-10 md:top-[48%] md:left-[20%] lg:text-4xl lg:leading-10 lg:top-[48%] lg:left-[20%] xl:top-[45%] xl:text-5xl xl:leading-[62.4px] xl:left-[25%]; 
     }
     
 }
