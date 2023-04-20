@@ -1,13 +1,9 @@
 #grid-article{
-  @apply bg-gray-100 py-[160px] sm:px-[60px] md:px-[60px] lg:px-[20px] xl:px-[60px] 2xl:px-[190px];
+ @apply bg-gray-100 py-[160px] sm:px-[60px] md:px-[60px] lg:px-[20px] xl:px-[60px] 2xl:px-[190px];
 }
-
-
 .home-grid{
-  @apply grid md:grid-cols-3;
+ @apply grid md:grid-cols-3;
 } 
- 
-
 .box{
  @apply grid;
 }  
@@ -20,8 +16,17 @@
 .box p{
  @apply block text-base lg:text-lg mt-5;
 }  
+.image1{
+ @apply bg-[url('/images/image1.jpg')];
+}
 
+.image2{
+ @apply bg-[url('/images/image2.jpg')];
+}
 
+.image3{
+ @apply bg-[url('/images/image3.jpg')]; 
+}
 
 
 
